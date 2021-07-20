@@ -1,7 +1,5 @@
-class Speed(speed: Int){
-    val humanSpeed = speed
-
-    fun showSpeed (speed: Int){
-        println("Your speed now $humanSpeed ")
+data class Speed(val speed: Int = 0){
+    fun showSpeed (){
+        println("Your speed is equal to $speed km/h")
     }
 }
