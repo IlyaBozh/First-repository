@@ -1,4 +1,4 @@
 fun main(){
-    val human: Speed = Speed(5)
+    val human: Speed = Speed(12)
     human.showSpeed()
 }
