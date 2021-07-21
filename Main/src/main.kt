@@ -3,4 +3,7 @@ fun main(){
     human.showSpeed()
     val zombie: IWalker = ZombieWalker(2)
     zombie.walk()
+    val sadHuman: IWalker = SadWalker(1)
+    sadHuman.walk()
+
 }
