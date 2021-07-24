@@ -1,5 +1,5 @@
 data class SadWalker(val speed: Int = 0) : IWalker{
     override fun walk(){
-        println("He is so sad, that's probably why he goes about $speed km/h")
+        println("I am very sad, so my speed is equal to $speed km/h")
     }
 }
