@@ -2,4 +2,4 @@
              var gender: String = "",
              var weight: Int = 0,
              var speed: Int = 0,
-             var showWalk: IWalker? = null)
+             var walker: IWalker? = null)

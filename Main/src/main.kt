@@ -5,7 +5,7 @@ fun main(){
     }
     for (j in humans){
         println("Hi, I'm a ${j.gender}, my height is ${j.height} and my weight is ${j.weight}.")
-        j.showWalk?.walk()
+        j.walker?.walk()
         println()
     }
 }
